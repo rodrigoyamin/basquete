@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade · Basquete AAB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Layout: documento de leitura numa coluna (~65 caracteres), cabeçalho com o ícone do app, seções com títulos condensados */
+:root{
+  --bg:#f7f5f2; --papel:#ffffff; --fg:#1f1b17; --muted:#6b635b; --linha:#e6e0d8;
+  --laranja:#d9561a; --laranja-suave:#fbe7dc;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#151311; --papel:#1e1b18; --fg:#f0ebe5; --muted:#a59b90; --linha:#342e29;
+  --laranja:#f07a3c; --laranja-suave:#3a2216; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151311; --papel:#1e1b18; --fg:#f0ebe5; --muted:#a59b90; --linha:#342e29;
+  --laranja:#f07a3c; --laranja-suave:#3a2216; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.pagina{max-width:720px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;gap:18px;align-items:center;margin-bottom:28px}
+.icone{width:64px;height:64px;flex:none;border-radius:15px;background:linear-gradient(135deg,#f27a2e,#c9480f);display:grid;place-items:center}
+.icone svg{width:44px;height:44px}
+h1{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1;margin:0;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
+.sub{color:var(--muted);margin-top:6px;font-size:.95rem}
+.resumo{background:var(--laranja-suave);border-radius:12px;padding:18px 20px;margin-bottom:32px}
+.resumo p{margin:0}
+.resumo ul{margin:10px 0 0;padding-left:20px}
+article{background:var(--papel);border:1px solid var(--linha);border-radius:14px;padding:8px 28px 28px}
+h2{font-family:var(--display);font-weight:700;font-size:1.45rem;text-transform:uppercase;letter-spacing:.03em;margin:30px 0 8px;text-wrap:balance}
+h2 span{color:var(--laranja);font-variant-numeric:tabular-nums;margin-right:8px}
+p,li{max-width:65ch}
+ul{padding-left:22px}
+li{margin:4px 0}
+strong{font-weight:600}
+.contato{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:8px}
+.email{font-weight:600;user-select:all;background:var(--bg);border:1px solid var(--linha);border-radius:8px;padding:6px 12px;word-break:break-all}
+button{font:600 .9rem var(--body);background:var(--laranja);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+footer{color:var(--muted);font-size:.9rem;margin-top:24px}
+@media (max-width:480px){article{padding:4px 18px 22px}h1{font-size:2rem}}
+</style>
+</head>
+<body>
+
+<div class="pagina">
+  <header>
+    <div class="icone" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round">
+        <circle cx="50" cy="50" r="42"/><line x1="50" y1="8" x2="50" y2="92"/><line x1="8" y1="50" x2="92" y2="50"/>
+        <path d="M20 21 Q38 50 20 79"/><path d="M80 21 Q62 50 80 79"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Política de Privacidade</h1>
+      <div class="sub">App Basquete AAB para iPhone · em vigor desde 5 de novembro de 2026</div>
+    </div>
+  </header>
+
+  <div class="resumo">
+    <p><strong>Em resumo:</strong></p>
+    <ul>
+      <li>Os dados ficam no iCloud de quem criou o grupo e são compartilhados só com as pessoas da diretoria convidadas por ele.</li>
+      <li>O desenvolvedor não tem acesso a esses dados.</li>
+      <li>O app não pede CPF, RG, data de nascimento nem dados bancários.</li>
+      <li>Não há anúncios, rastreamento nem login próprio.</li>
+    </ul>
+  </div>
+
+  <article>
+    <h2><span>1</span>Sobre o app</h2>
+    <p>O Basquete AAB é um app gratuito para a diretoria de um grupo de basquete controlar as mensalidades dos jogadores e organizar os treinos: a fila por ordem de chegada, a formação das partidas e o tempo de jogo. O app foi desenvolvido por Rodrigo Yamin.</p>
+
+    <h2><span>2</span>Dados que o app guarda</h2>
+    <p>A diretoria cadastra no app apenas o necessário para o funcionamento do grupo:</p>
+    <ul>
+      <li><strong>Jogadores:</strong> nome, apelido, posição em quadra (pivô, armador ou ala), nível técnico de 1 a 5, tipo (pagante, sócio ou convidado) e se está ativo no grupo.</li>
+      <li><strong>Mensalidades:</strong> o mês, o valor pago e a data em que o pagamento foi marcado como recebido. O app não processa pagamentos; ele apenas registra que o pagamento foi feito.</li>
+      <li><strong>Treinos:</strong> a data, a ordem de chegada ao ginásio, os times de cada partida, o time vencedor e o tempo de jogo.</li>
+      <li><strong>Convidados do dia:</strong> nome, posição e nível, guardados apenas no registro daquele treino.</li>
+    </ul>
+
+    <h2><span>3</span>O que o app não coleta</h2>
+    <ul>
+      <li>CPF, RG, data de nascimento, endereço ou telefone dos jogadores.</li>
+      <li>Dados bancários ou de cartão.</li>
+      <li>Localização, contatos, fotos ou qualquer outro dado do iPhone.</li>
+      <li>Dados de uso, estatísticas, identificadores de publicidade ou rastreamento entre apps e sites.</li>
+    </ul>
+
+    <h2><span>4</span>Onde os dados ficam</h2>
+    <p>Os dados são guardados no iPhone e sincronizados pelo <strong>iCloud</strong>, o serviço da Apple, na conta de quem criou o grupo no app (o organizador). Quando o organizador convida outras pessoas da diretoria, a Apple compartilha esses dados com elas pelo próprio iCloud.</p>
+    <p>O desenvolvedor do app não tem servidor próprio e <strong>não tem acesso</strong> aos dados de nenhum grupo. O armazenamento e a segurança no iCloud seguem a <a href="https://www.apple.com/br/legal/privacy/" target="_blank" rel="noopener">política de privacidade da Apple</a>.</p>
+
+    <h2><span>5</span>Com quem os dados são compartilhados</h2>
+    <p>Somente com as pessoas que o organizador convidar pelo app (em Ajustes › Convidar a diretoria). O organizador pode remover qualquer pessoa a qualquer momento, e quem foi convidado pode sair do grupo pelo mesmo menu. Os dados não são vendidos, cedidos nem compartilhados com terceiros.</p>
+
+    <h2><span>6</span>Responsabilidade pelos dados dos jogadores</h2>
+    <p>Os dados dos jogadores são cadastrados pela diretoria do grupo, que decide o que registrar e é responsável por esse uso, nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018). O app foi pensado para guardar o mínimo necessário à organização dos treinos e das mensalidades.</p>
+
+    <h2><span>7</span>Como corrigir ou apagar dados</h2>
+    <ul>
+      <li>Qualquer pessoa da diretoria pode editar ou excluir um jogador na aba Jogadores e zerar os registros de um treino na aba Treino.</li>
+      <li>Um jogador que queira consultar, corrigir ou excluir seus dados pode pedir à diretoria do grupo ou entrar em contato pelo e-mail abaixo.</li>
+      <li>Apagar o app remove a cópia do iPhone. Os dados guardados no iCloud podem ser apagados em Ajustes do iPhone › seu nome › iCloud › Gerenciar Armazenamento.</li>
+    </ul>
+
+    <h2><span>8</span>Crianças</h2>
+    <p>O app é destinado à diretoria de um grupo esportivo adulto e não é direcionado a menores de idade.</p>
+
+    <h2><span>9</span>Mudanças nesta política</h2>
+    <p>Se esta política mudar, a nova versão será publicada nesta mesma página, com a data de vigência atualizada.</p>
+
+    <h2><span>10</span>Contato</h2>
+    <p>Dúvidas ou pedidos sobre privacidade e dados pessoais:</p>
+    <div class="contato">
+      <span class="email" id="email">rodrigoyamin@gmail.com</span>
+      <button type="button" id="copiar">Copiar e-mail</button>
+    </div>
+  </article>
+
+  <footer>Basquete AAB · Rodrigo Yamin · Última atualização: 5 de novembro de 2026</footer>
+</div>
+
+<script>
+document.getElementById('copiar').addEventListener('click', async (e) => {
+  const b = e.currentTarget;
+  try {
+    await navigator.clipboard.writeText('rodrigoyamin@gmail.com');
+    b.textContent = 'E-mail copiado';
+  } catch (_) {
+    const r = document.createRange(); r.selectNodeContents(document.getElementById('email'));
+    const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    b.textContent = 'Selecionado: copie com ⌘C';
+  }
+  setTimeout(() => { b.textContent = 'Copiar e-mail'; }, 2500);
+});
+</script>
+
+</body>
+</html>
